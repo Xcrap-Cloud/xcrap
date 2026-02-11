@@ -1,6 +1,6 @@
 {
   "name": "xcrap",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "type": "commonjs",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -18,7 +18,9 @@
     "access": "public"
   },
   "keywords": [
-    "marcuth"
+    "web scraping",
+    "xcrap",
+    "scrapy"
   ],
   "author": "Marcuth",
   "license": "MIT",
@@ -31,5 +33,10 @@
     "prettier-plugin-sort-imports": "^1.8.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@xcrap/core": "^0.2.3",
+    "@xcrap/extractor": "^0.3.1",
+    "@xcrap/transformer": "^0.3.1"
   }
 }

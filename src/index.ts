@@ -1,5 +1,3 @@
-function main() {
-    console.log("Hello from xcrap")
-}
-
-main()
+export * from "@xcrap/core"
+export * from "@xcrap/extractor"
+export * from "@xcrap/transformer"
