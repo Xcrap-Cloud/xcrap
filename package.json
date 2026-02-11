@@ -42,5 +42,18 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Xcrap-Cloud/xcrap.git"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./core": "./dist/core/index.js",
+    "./extractor": "./dist/extractor/index.js",
+    "./transformer": "./dist/transformer/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "core": ["dist/core/index.d.ts"],
+      "extractor": ["dist/extractor/index.d.ts"],
+      "transformer": ["dist/transformer/index.d.ts"]
+    }
   }
 }
