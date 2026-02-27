@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@xcrap/core": "^0.2.3",
-    "@xcrap/extractor": "^0.3.1",
+    "@xcrap/extractor": "^0.3.2",
     "@xcrap/transformer": "^0.3.1"
   },
   "repository": {
